@@ -30,9 +30,10 @@ The dataset used for this project is the [Heart Failure Prediction Dataset](http
 2. Run the Jupyter notebooks in the `ml_notebooks/` directory for `Machine Learning` models training, and evaluation.
 
 ## Conclusion
-- All three model types give the similar results on the classification: False Positive Rate ~ 12%, False Negative Rate ~ 10%.
-- Seems like this is the limit of what you could get from this dataset, other simpler methods (like Logistic Regression) and more complex methods (Deep Neural Network) should be used to confirm this.
-- The dataset is very old, with a newer dataset with better clinical measurements we could get better result, the aim is to bring the False Negative Rate (the important stat) to below 5%, although introducing a lower cut-off point for Negative might help temporarily.
+- `K-Nearest Neighbors` and `Support Vector Machine` gives very similar result: `False Positive Rate` ~ 12%, `False Negative Rate` ~ 10%.
+- For `Tree-based` models, `RandomForest` does best at `False Positive Rate` ~ 12%, `False Negative Rate` ~ 10% with default hyper-params, `LightGBM` best result is `False Positive Rate` ~ 10%, `False Negative Rate` ~ 15%.
+- Seems like `False Negative Rate` ~ 10% is the limit of what you could get from this dataset, other simpler methods (like Logistic Regression) and more complex methods (Deep Neural Network) should be used to confirm this.
+- The dataset is very old, with a newer dataset with better clinical measurements we could get better result, the aim is to bring the `False Negative Rate` (the important stat) to below 5%, although introducing a lower cut-off point for Negative might help temporarily.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
