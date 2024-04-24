@@ -54,4 +54,4 @@ Janosi,Andras, Steinbrunn,William, Pfisterer,Matthias, and Detrano,Robert. (1988
 ## Contributors
 - [Hoang Minh Trung](https://github.com/trunghm88888): Data Preprocessing and Machine Learning.
 - [Aviral](https://github.com/Aviral00001): Exploratory Data Analysis.
-- [Prasanna](): Exploratory Data Analysis.
+- [Prasanna](https://github.com/Prasntu21): Exploratory Data Analysis.
